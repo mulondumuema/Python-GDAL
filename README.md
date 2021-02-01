@@ -16,3 +16,7 @@ To install gdal in a virtual environment:
 
 ```$ pip install --global-option=build_ext --global-option="-I/usr/include/gdal" GDAL==`gdal-config --version` ```
 
+to check the installed gdal version
+
+```$ gdalinfo --version```
+

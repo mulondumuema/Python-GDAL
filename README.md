@@ -23,4 +23,9 @@ to check the installed gdal version
 You also need to have installed the GEOS library (for spatial analysis) and PROJ.4 (for projections). In Ubuntu you can install these with:
 
 ```$ sudo apt-get install binutils libproj-dev gdal-bin ```
+
 ```$ sudo apt-get install -y libgeos-dev```
+
+The library oftenly used to for analysing geospatial data is shapely. While folium can be used to view the data.
+
+Attached are example programs.
